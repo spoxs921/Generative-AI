@@ -1,0 +1,1 @@
+Embeddings are dense vector representations that map high-dimensional or discrete data (such as words, images, or graph nodes) into a lower-dimensional continuous space, capturing semantic relationships and similarities in a way that machine learning models can efficiently process.

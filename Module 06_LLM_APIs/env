@@ -1,0 +1,26 @@
+# Copy this file to .env, then fill in the three API keys + your 9Router domain.
+
+# ==============================
+# OMNIROUTE — MODULE 06 & 07
+# ==============================
+OMNIROUTE_BASE_URL=http://localhost:20128/v1
+OMNIROUTE_API_KEY=sk-0099c5cdb03d72ae-6523db-001523a6
+NINEROUTER_BASE_URL=http://localhost:20128/v1
+NINEROUTER_API_KEY=sk-0099c5cdb03d72ae-6523db-001523a6
+OPENAI_MODEL=antigravity/gpt-oss-120b-medium
+ANTHROPIC_MODEL=antigravity/claude-sonnet-4-6
+
+# ==============================
+# GEMINI EMBEDDING — MODULE 08
+# ==============================
+GEMINI_API_KEY=AQ.Ab8RN6IHvWJl2h90shsguxh-bUDvEywM9jyeM7TIaMt9Wgluxg
+GEMINI_OPENAI_BASE_URL=https://generativelanguage.googleapis.com/v1beta/openai/
+GEMINI_EMBEDDING_MODEL=gemini-embedding-2
+
+# ==============================
+# VOYAGE — MODULE 08
+# ==============================
+VOYAGE_API_KEY=pa-I66XKYZinf2ipwkZmRzhdIODtv6vu1FlNpovVmO-V79
+# PDF example uses voyage-3. We use voyage-4-lite because the current model
+# receives Voyage's free-token allowance and is suitable for this workshop.
+VOYAGE_MODEL=voyage-4-lite
